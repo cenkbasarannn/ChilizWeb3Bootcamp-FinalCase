@@ -1,6 +1,6 @@
-# Virtual Meet Tempalte
+# Virtual Meet Complete
 
-Template for starting the Virtual Meet in CHZ network, using Moralis
+Complete version of the Virtual Meet in CHZ network, using Moralis
 
 ## Configuration Process
 

@@ -1,6 +1,6 @@
-# Virtual Meet Tempalte
+# NFT Marketplace Template
 
-Template for starting the Virtual Meet in CHZ network, using Moralis
+This repository provides a template for creating an NFT Marketplace interface. It encompasses the frontend HTML/CSS structure, deliberately excluding any backend logic or smart contract integrations.
 
 ## Configuration Process
 
@@ -15,7 +15,10 @@ Follow these steps to properly configure your environment for the application.
 
 Populate the `.env.local` file with the necessary environment variables. These are crucial for linking the application with your specific resources on Thirdweb. Below is a list of the required variables:
 
--   `NEXT_PUBLIC_MORALIS_API_KEY`: Your unique API key from Moralis.
+-   `NEXT_PUBLIC_CLIENT_ID`: Your unique client identifier from Thirdweb. You can find this by logging into your account, navigating to "Settings," then "API Keys," and selecting your key to view the clientID.
+-   `NEXT_PUBLIC_NETWORK`: The specific network name on Thirdweb, e.g., "SpicyChain."
+-   `NEXT_PUBLIC_MARKET_CONTRACT_ADDRESS`: The address of your marketplace smart contract.
+-   `NEXT_PUBLIC_NFT_CONTRACT_ADDRESS`: The address corresponding to your NFT smart contract.
 
 ### Step 3: Dependency Installation
 
